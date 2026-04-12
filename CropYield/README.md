@@ -54,7 +54,7 @@ More importantly: linear regression is the foundation. Before you touch neural n
 ### 1. Clean
 - Drop rows where Yield is null or zero (bad records)
 - Drop District and unit columns
-- Parse Year into a usable integer
+- Parse Year into a usable integer Or Categorize it 
 - Label encode State, Crop, Season (convert categories to numbers)
 - Normalize Area and Year to 0–1 range manually
 
