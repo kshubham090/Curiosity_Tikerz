@@ -85,12 +85,10 @@ These three runs teach you more about optimization than any lecture.
 
 | Metric | Value |
 |---|---|
-| Final Training MSE | `[fill after run]` |
-| Final Training RMSE | `[fill after run]` |
-| Learning Rate Used | `[fill after run]` |
-| Epochs | `[fill after run]` |
-| Crops model struggled most on | `[fill after run]` |
-| Season with highest residuals | `[fill after run]` |
+| Final Training MSE | `138.14 (Tonnes/Hectare)^2` |
+| Final Training RMSE | `11.75 Tonnes/Hectare` |
+| Learning Rate Used | `0.3` |
+| Epochs | `2000` |
 
 ---
 
@@ -104,7 +102,7 @@ When you plot residuals grouped by crop type, you'll see certain crops where the
 
 ## What I Learned
 
-> *[fill this after you finish — one paragraph, honest, what actually clicked and what broke]*
+> RMSE dropped from 857 → 11.75 with log transform + outlier removal. but predictions still cluster near the mean. linear regression finds one global average line — it can't learn that wheat yields 3 T/Ha and rice yields 40 T/Ha because those need separate rules, not one equation. that's exactly what decision trees do on afterwards project.
 
 ---
 
