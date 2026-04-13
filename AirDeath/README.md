@@ -96,7 +96,7 @@ that limitation is more interesting to think about than the accuracy number.
 | False Negatives (missed severe stations) | `[fill after run]` |
 | Most influential pollutant | `[fill after run]` |
 | Best threshold | `[fill after run]` |
-| Cities with most severe stations | `[fill after run]` |
+| Cities with most severe stations | `224` |
 
 ---
 
